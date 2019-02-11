@@ -25,7 +25,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="246dp"
-        android:background="#11000000"
+        android:background="#ffff"
         android:ems="10"
         android:hint="Id User"
         android:inputType="textPersonName"
@@ -38,14 +38,14 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="192dp"
-        android:background="#11000000"
+        android:background="#ffff"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnuserlogin"
         android:layout_width="195dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
@@ -55,6 +55,30 @@
         android:text="LOGIN"
         android:textSize="18dp"
         />
+
+    <Button
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="475dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="82dp"
+        android:background="#ffff"
+        android:text="Forgot Password" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="475dp"
+        android:background="#ffff"
+        android:text="Sign Up" />
 
 
 </RelativeLayout>

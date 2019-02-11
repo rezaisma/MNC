@@ -76,6 +76,10 @@
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0cc7bebb86d820a24f55bebf5f514b4f/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/reza/Documents/MNC/app/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -814,10 +818,6 @@
     {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout_main_activity.xml.flat",
-        "source": "/Users/reza/Documents/MNC/app/src/main/res/layout/main_activity.xml"
     },
     {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat",
