@@ -384,6 +384,8 @@ color button_material_light
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorbtn
+color coloredit
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -628,8 +630,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable gradasi
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -642,10 +646,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rounded_button
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
+id ETlogin1
+id ETlogin2
 id FUNCTION
 id META
 id SHIFT
@@ -670,6 +677,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id adminBTN
 id alertTitle
 id all
 id always
@@ -678,6 +686,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id buttonPanel
 id center
 id center_horizontal
@@ -714,6 +723,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -788,6 +798,7 @@ id topPanel
 id uniform
 id up
 id useLogo
+id userBTN
 id withText
 id wrap
 id wrap_content
@@ -824,7 +835,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
+layout login_activity
+layout main_activity
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
