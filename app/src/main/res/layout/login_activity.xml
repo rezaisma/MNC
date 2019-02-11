@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFB4BAC4"
+    android:background="@drawable/gradasi"
     tools:context=".LoginActivity">
 
 
@@ -14,45 +14,47 @@
         android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="126dp"
         app:srcCompat="@drawable/logo" />
 
 
     <EditText
         android:id="@+id/ETlogin1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/ETlogin2"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="287dp"
-        android:ems="10"
+        android:layout_marginBottom="239dp"
         android:background="#11000000"
+        android:ems="10"
+        android:hint="Id User"
         android:inputType="textPersonName"
-        android:text="Name"
-        android:textSize="24sp"/>
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/ETlogin2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="219dp"
-        android:ems="10"
+        android:layout_marginBottom="192dp"
         android:background="#11000000"
+        android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
-
-        android:textSize="24sp"/>
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="179dp"
+        android:layout_width="195dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="85dp"
         android:background="@drawable/rounded_button"
-        android:text="Button" />
+        android:text="LOGIN"
+        android:textSize="18dp"
+        />
 
 
 </RelativeLayout>
