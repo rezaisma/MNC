@@ -30,9 +30,10 @@
         <activity
             android:name=".TanggalSurveyArea"
             android:label="@string/Tanggal_Survey" />
-        <activity android:name=".InfoKabKota"
-            android:label="@string/Info_Kab_Kota">
-        </activity>
+        <activity
+            android:name=".InfoKabKota"
+            android:label="@string/Info_Kab_Kota"></activity>
+        <activity android:name=".InformasiDetailSurveyArea"></activity>
     </application>
 
 </manifest>

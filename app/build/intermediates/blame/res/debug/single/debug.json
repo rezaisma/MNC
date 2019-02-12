@@ -1064,6 +1064,10 @@
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/drawable/tooltip_frame_dark.xml"
     },
     {
+        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout_activity_informasi_detail_survey_area.xml.flat",
+        "source": "/Users/reza/Documents/MNC/app/src/main/res/layout/activity_informasi_detail_survey_area.xml"
+    },
+    {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "/Users/reza/Documents/MNC/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
     },

@@ -687,6 +687,7 @@ id beginning
 id blocking
 id bottom
 id btnAdminLogin
+id btnNextKab
 id btnNextTanggal
 id btnuserlogin
 id buttonPanel
@@ -708,8 +709,17 @@ id default_activity_button
 id dimensions
 id direct
 id disableHome
+id edDeveloper
+id edKecamtan
+id edKelurahan
+id edKompleks
 id edit_query
 id end
+id etDeveloper
+id etKabKota
+id etKecamatan
+id etKelurahan
+id etKompleks
 id expand_activities_button
 id expanded_menu
 id fill
@@ -758,6 +768,7 @@ id right_side
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
+id scrollKab
 id scrollView
 id search_badge
 id search_bar
@@ -777,6 +788,7 @@ id showTitle
 id spacer
 id spinerRegion
 id spinerTgl
+id spinnerKabKota
 id split_action_bar
 id spread
 id spread_inside
@@ -842,6 +854,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_info_kab_kota
+layout activity_informasi_detail_survey_area
 layout activity_login_admin
 layout activity_main
 layout activity_tanggal_survey_area
