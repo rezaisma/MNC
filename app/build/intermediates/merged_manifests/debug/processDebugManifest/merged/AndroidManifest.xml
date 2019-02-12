@@ -16,8 +16,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.example.reza.form.LoginUserActivity" >
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.example.reza.form.TanggalSurveyArea" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +26,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.reza.form.LoginAdminActivity" />
-        <activity android:name="com.example.reza.form.TanggalSurveyArea" />
+        <!-- &lt;!&ndash;<activity android:name=".TanggalSurveyArea"&ndash;&gt; -->
+        <!-- &lt;!&ndash;android:label="@string/Tanggal_Survey">&ndash;&gt; -->
+        <!-- </activity> -->
     </application>
 
 </manifest>

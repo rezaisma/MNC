@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">INFORMASI SURVEY AREA</string>
+    <string name="app_name">FORM</string>
+    <string name="Tanggal_Survey">TANGGAL SURVEY AREA</string>
 </resources>
