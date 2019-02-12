@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,10 +18,12 @@
             </intent-filter>
         </activity>
         //LOGIN ADMIN ACTIVITY
-        <activity android:name=".LoginAdminActivity" />
+        <activity android:name=".LoginAdminActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
         //LOGIN USER ACTIVITY
-        <activity android:name=".LoginUserActivity"></activity>
+        <activity android:name=".LoginUserActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
         //TANGGAL SURVEY AREA
         <activity
