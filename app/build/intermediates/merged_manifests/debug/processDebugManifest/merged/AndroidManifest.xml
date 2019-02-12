@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.reza.form.LoginAdminActivity" />
+        <activity android:name="com.example.reza.form.TanggalSurveyArea" />
     </application>
 
 </manifest>

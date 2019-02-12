@@ -26,6 +26,7 @@
         android:layout_marginBottom="246dp"
         android:background="#ffff"
         android:ems="10"
+        android:filterTouchesWhenObscured="false"
         android:hint="Id Admin"
         android:inputType="textPersonName"
         android:textSize="24sp" />

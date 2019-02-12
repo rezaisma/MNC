@@ -685,6 +685,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnAdminLogin
 id btnuserlogin
 id buttonPanel
 id center
@@ -720,6 +721,7 @@ id home
 id homeAsUp
 id icon
 id icon_group
+id idAdmin
 id ifRoom
 id image
 id imageView
@@ -743,6 +745,7 @@ id notification_main_column_container
 id packed
 id parent
 id parentPanel
+id passAdmin
 id percent
 id progress_circular
 id progress_horizontal
@@ -836,6 +839,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login_admin
 layout activity_main
+layout activity_tanggal_survey_area
 layout login_user_activity
 layout notification_action
 layout notification_action_tombstone
