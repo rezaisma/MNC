@@ -685,7 +685,7 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
+id btnuserlogin
 id buttonPanel
 id center
 id center_horizontal
@@ -834,8 +834,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login_admin
 layout activity_main
-layout login_activity
+layout login_user_activity
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

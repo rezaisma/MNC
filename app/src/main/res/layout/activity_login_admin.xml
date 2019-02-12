@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradasi"
-    tools:context=".LoginActivity">
-
+    tools:context=".LoginAdminActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -19,7 +18,7 @@
 
 
     <EditText
-        android:id="@+id/ETlogin1"
+        android:id="@+id/idAdmin"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
@@ -27,12 +26,12 @@
         android:layout_marginBottom="246dp"
         android:background="#ffff"
         android:ems="10"
-        android:hint="Id User"
+        android:hint="Id Admin"
         android:inputType="textPersonName"
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/ETlogin2"
+        android:id="@+id/passAdmin"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
@@ -45,7 +44,7 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/btnuserlogin"
+        android:id="@+id/btnAdminLogin"
         android:layout_width="195dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
@@ -55,30 +54,5 @@
         android:text="LOGIN"
         android:textSize="18dp"
         />
-
-    <Button
-        android:id="@+id/forgotpass"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="475dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="82dp"
-        android:background="#ffff"
-        android:text="Forgot Password" />
-
-    <Button
-        android:id="@+id/signup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="475dp"
-        android:background="#ffff"
-        android:text="Sign Up" />
-
 
 </RelativeLayout>
