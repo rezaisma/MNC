@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
     android:orientation="vertical"
-    tools:context=".TanggalSurveyArea">
+    tools:context=".TanggalSurveyArea"
+    >
 
 
     <TextView
@@ -16,18 +17,59 @@
         android:text="Tanggal Survey Area"
         android:textSize="25dp"
         android:textStyle="bold"
+        android:id="@+id/EtTanggal"
         android:paddingTop="10dp"
         />
 
-    <EditText
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Format Tanggal: Hari, Tanggal, Tahun"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:textStyle=""
+        />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/spinerTgl"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Region"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Pilih Salah Satu Region Dibawah Ini:"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:textStyle=""
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/spinerRegion"
+        />
+
+    <Button
+        android:id="@+id/btnNextTanggal"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:inputType="datetime"
-        android:hint="dd/mm/yyy"
-        android:textSize="20dp"/>
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Berikutnya"
+        android:background="#11000000"/>
 
-    <!--<Spinner-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="50dp"-->
-        <!--/>-->
 </LinearLayout>

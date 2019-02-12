@@ -8,18 +8,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".TanggalSurveyArea">
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        //LOGIN ADMIN ACTIVITY
         <activity android:name=".LoginAdminActivity" />
-        <!--&lt;!&ndash;<activity android:name=".TanggalSurveyArea"&ndash;&gt;-->
-            <!--&lt;!&ndash;android:label="@string/Tanggal_Survey">&ndash;&gt;-->
-        <!--</activity>-->
+
+        //LOGIN USER ACTIVITY
+        <activity android:name=".LoginUserActivity"></activity>
+
+        //TANGGAL SURVEY AREA
+        <activity
+            android:name=".TanggalSurveyArea"
+            android:label="@string/Tanggal_Survey" />
+
+        //INFO KABUPATEN / KOTA
+        <activity android:name=".InfoKabKota"
+            android:label="@string/Info_Kab_Kota"/>
+
+
+
     </application>
 
 </manifest>

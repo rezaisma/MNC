@@ -652,6 +652,7 @@ id ALT
 id CTRL
 id ETlogin1
 id ETlogin2
+id EtTanggal
 id FUNCTION
 id META
 id SHIFT
@@ -686,6 +687,7 @@ id beginning
 id blocking
 id bottom
 id btnAdminLogin
+id btnNextTanggal
 id btnuserlogin
 id buttonPanel
 id center
@@ -773,6 +775,8 @@ id showCustom
 id showHome
 id showTitle
 id spacer
+id spinerRegion
+id spinerTgl
 id split_action_bar
 id spread
 id spread_inside
@@ -837,6 +841,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_info_kab_kota
 layout activity_login_admin
 layout activity_main
 layout activity_tanggal_survey_area
@@ -853,6 +858,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+string Info_Kab_Kota
 string Tanggal_Survey
 string abc_action_bar_home_description
 string abc_action_bar_up_description

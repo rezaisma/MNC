@@ -552,6 +552,10 @@
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout_activity_info_kab_kota.xml.flat",
+        "source": "/Users/reza/Documents/MNC/app/src/main/res/layout/activity_info_kab_kota.xml"
+    },
+    {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
@@ -1416,20 +1420,20 @@
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
-        "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout_activity_login_admin.xml.flat",
         "source": "/Users/reza/Documents/MNC/app/src/main/res/layout/activity_login_admin.xml"
     },
     {
-        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
-        "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/layout/abc_action_mode_bar.xml"
+        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
+        "source": "/Users/reza/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2ac0fb0c5168bab84b37479a80895b77/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/reza/Documents/MNC/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat",
