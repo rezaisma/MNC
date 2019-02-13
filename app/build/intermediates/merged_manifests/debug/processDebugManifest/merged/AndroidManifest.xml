@@ -23,7 +23,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.reza.form.Login.MainActivity"
+            android:name="com.example.reza.form.loginactivity.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,11 +33,11 @@
         </activity>
         //LOGIN ADMIN ACTIVITY
         <activity
-            android:name="com.example.reza.form.Login.LoginAdminActivity"
+            android:name="com.example.reza.form.loginactivity.LoginAdminActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         //LOGIN USER ACTIVITY
         <activity
-            android:name="com.example.reza.form.Login.LoginUserActivity"
+            android:name="com.example.reza.form.loginactivity.LoginUserActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         //TANGGAL SURVEY AREA
         <activity
