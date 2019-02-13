@@ -1,7 +1,9 @@
 package com.example.reza.form;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -9,8 +11,11 @@ import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.example.reza.form.loginactivity.LoginAdminActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class InformasiDetailSurveyArea extends AppCompatActivity {
 
@@ -98,11 +103,33 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
     Button btnBackDetailSurvey;
     @BindView(R.id.scrollKab)
     ScrollView scrollKab;
+    @BindView(R.id.etDataHomePass)
+    TextView etDataHomePass;
+    @BindView(R.id.etMayoritasKendaraan)
+    TextView etMayoritasKendaraan;
+    @BindView(R.id.etMetodePembangunan)
+    TextView etMetodePembangunan;
+    @BindView(R.id.etMayoritasProvider)
+    TextView etMayoritasProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_informasi_detail_survey_area);
         ButterKnife.bind(this);
+    }
+
+    @OnClick({R.id.btnNextDetailSurvey, R.id.btnBackDetailSurvey})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.btnNextDetailSurvey:
+                Intent intent6 = new Intent(this, Identita_Surveyor.class);
+                startActivity(intent6);
+                break;
+            case R.id.btnBackDetailSurvey:
+                Intent intent7 = new Intent(this, InfoKabKota.class);
+                startActivity(intent7);
+                break;
+        }
     }
 }

@@ -33,7 +33,7 @@ public class TanggalSurveyArea extends AppCompatActivity {
 
     @OnClick(R.id.btnNextTanggal)
     public void onViewClicked() {
-        Intent intent3 = new Intent(this, LoginAdminActivity.class);
+        Intent intent3 = new Intent(this, InfoKabKota.class);
         startActivity(intent3);
     }
 }
