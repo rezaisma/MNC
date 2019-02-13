@@ -41,7 +41,9 @@
         <activity
             android:name="com.example.reza.form.InfoKabKota"
             android:label="@string/Info_Kab_Kota" />
-        <activity android:name="com.example.reza.form.InformasiDetailSurveyArea" />
+        <activity
+            android:name="com.example.reza.form.InformasiDetailSurveyArea"
+            android:label="@string/Info_detail_survey" />
     </application>
 
 </manifest>

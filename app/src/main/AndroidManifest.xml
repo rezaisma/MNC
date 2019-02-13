@@ -32,8 +32,9 @@
             android:label="@string/Tanggal_Survey" />
         <activity
             android:name=".InfoKabKota"
-            android:label="@string/Info_Kab_Kota"></activity>
-        <activity android:name=".InformasiDetailSurveyArea"></activity>
+            android:label="@string/Info_Kab_Kota"/>
+        <activity android:name=".InformasiDetailSurveyArea"
+            android:label="@string/Info_detail_survey"/>
     </application>
 
 </manifest>

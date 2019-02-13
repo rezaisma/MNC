@@ -1,9 +1,338 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".InformasiDetailSurveyArea">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollKab">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            //JENIS PROPERTI AREA
+            <TextView
+                android:text="[1 INPUT FORM HASIL SURVEY UNTUK 1 RW]"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/etJenisProperti"
+                android:text="JENIS PROPERTI AREA "
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Pilihan Bisa Lebih Dari Satu :"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Rumah Tinggal/Open Area"
+                android:id="@+id/cbAjenisPro"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rumah Tinggal/Komplek/Cluster"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbBjenisPro"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ruko/Rukan"
+                android:id="@+id/cbCjenisPro"/>
+
+            //KLASIFIKASI TIPE RUMAH
+            <TextView
+                android:id="@+id/etKlaarifikasiTipe"
+                android:text="KLASIFIKASI TIPE RUMAH  "
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+             <TextView
+                android:text="Pilihan Bisa Lebih Dari Satu :"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbAKlarifikasiTipe"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbBKlarifikasiTipe"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbCKlarifikasiTipe"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbDKlarifikasiTipe"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOHO"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbEKlarifikasiTipe"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrakan/Kos (KK)"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbFKlarifikasiTipe"/>
+
+            //DATA HOMEPASS BERDASARKAN TIPE RUMAH
+            <TextView
+                android:id="@+id/etDataHomePass"
+                android:text="DATA HOMEPASS BERDASARKAN TIPE RUMAH"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Tuliskan Jumlah Homepass Berdasarkan Tipe Rumah Yang Dipilih (Misalnya Tipe A ada 100 dan Tipe B ada 200 Maka Tulis Dengan Format : A100-B200)"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="WAJIB DI ISI"
+                android:id="@+id/edDataHomePass"
+                android:layout_marginTop="5dp"/>
+
+            //MAYORITAS PENGHUNI MEMILIKI ?
+            <TextView
+                android:id="@+id/etMayoritas"
+                android:text="MAYORITAS PENGHUNI MEMILIKI ?"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Asumsi Bahwa Seseorang Yang Memiliki Mobil Kemungkinan Juga Memilki Motor. Akan Tetapi, Sebaliknya Bahwa Seseorang Yang Memiliki Motor Belum Tentu Memiliki Mobil"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobil dan Motor"
+                android:layout_marginTop="5dp"
+                android:id="@+id/rbMobilMotor"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motor"
+                android:layout_marginTop="5dp"
+                android:id="@+id/rbMotor"/>
+
+            //METODE PEMBANGUNAN ?
+            <TextView
+                android:id="@+id/etMetodePembangunan"
+                android:text="METODE PEMBANGUNAN ?"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Pilihan Bisa Lebih Dari Satu :"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kabel Udara"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbAMetode"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Underground"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbBMetode"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sewer/Got"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbCMetode"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yang lain:"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/cbDMetode"/>
+
+                <EditText
+                    android:id="@+id/edMetode"
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Isi Disini" />
+
+
+            </LinearLayout>
+
+            //AKSES UNTUK MELAKUKAN PENJUALAN ?
+            <TextView
+                android:id="@+id/etAkses"
+                android:text="AKSES UNTUK MELAKUKAN PENJUALAN ?"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Pilihan Bisa Lebih Dari Satu :"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Door to Door/Direct Mail"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbAAkses"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open Booth"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbBAkses"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branding Car"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbCAkses"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yang lain:"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/cbDAkses"/>
+
+                <EditText
+                    android:id="@+id/edAkses"
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Isi Disini" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
