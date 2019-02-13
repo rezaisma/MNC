@@ -43,13 +43,18 @@
         <activity
             android:name="com.example.reza.form.TanggalSurveyArea"
             android:label="@string/Tanggal_Survey" />
+        //INFO KABUPATEN DAN KOTA
         <activity
             android:name="com.example.reza.form.InfoKabKota"
             android:label="@string/Info_Kab_Kota" />
+        //INFO DETAIL SERVEY AREA
         <activity
             android:name="com.example.reza.form.InformasiDetailSurveyArea"
             android:label="@string/Info_detail_survey" />
-        <activity android:name="com.example.reza.form.Identita_Surveyor" />
+        //IDENTITAS SURVEYOR
+        <activity
+            android:name="com.example.reza.form.Identita_Surveyor"
+            android:label="@string/Identitas_Surveyor" />
     </application>
 
 </manifest>

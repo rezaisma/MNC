@@ -35,13 +35,17 @@
         <activity
             android:name=".TanggalSurveyArea"
             android:label="@string/Tanggal_Survey" />
+        //INFO KABUPATEN DAN KOTA
         <activity
             android:name=".InfoKabKota"
             android:label="@string/Info_Kab_Kota" />
+        //INFO DETAIL SERVEY AREA
         <activity
             android:name=".InformasiDetailSurveyArea"
             android:label="@string/Info_detail_survey" />
-        <activity android:name=".Identita_Surveyor"></activity>
+        //IDENTITAS SURVEYOR
+        <activity android:name=".Identita_Surveyor"
+            android:label="@string/Identitas_Surveyor"/>
     </application>
 
 </manifest>

@@ -1069,7 +1069,9 @@ id blocking
 id bottom
 id btnAdminLogin
 id btnBackDetailSurvey
+id btnBackIdentitas
 id btnBackKab
+id btnFinish
 id btnNextDetailSurvey
 id btnNextKab
 id btnNextTanggal
@@ -1137,6 +1139,7 @@ id edKelurahan
 id edKompleks
 id edMayoritas
 id edMetode
+id edNoTlpn
 id edRata2BiayaInternet
 id edit_query
 id edkompetitor
@@ -1155,7 +1158,10 @@ id etKompleks
 id etMayoritasKendaraan
 id etMayoritasProvider
 id etMetodePembangunan
+id etNama
+id etNoTlpn
 id etRata2BiayaInternet
+id etRekomen
 id etkompetitor
 id exitUntilCollapsed
 id expand_activities_button
@@ -1217,6 +1223,8 @@ id progress_horizontal
 id radio
 id rbMobilMotor
 id rbMotor
+id rbTidak
+id rbYa
 id right
 id right_icon
 id right_side
@@ -1383,6 +1391,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+string Identitas_Surveyor
 string Info_Kab_Kota
 string Info_detail_survey
 string Tanggal_Survey

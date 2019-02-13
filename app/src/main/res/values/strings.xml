@@ -3,6 +3,13 @@
     <string name="Tanggal_Survey">TANGGAL SURVEY AREA</string>
     <string name="Info_Kab_Kota">INFORMASI KABUPATEN KOTA</string>
     <string name="Info_detail_survey">INFORMASI DETAIL SURVEY AREA</string>
+    <string name="Identitas_Surveyor">IDENTITAS SURVEYOR</string>
+
+
+
+
+
+    \
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
