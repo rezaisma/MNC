@@ -166,7 +166,7 @@
 
             //MAYORITAS PENGHUNI MEMILIKI ?
             <TextView
-                android:id="@+id/etMayoritas"
+                android:id="@+id/etMayoritasKendaraan"
                 android:text="MAYORITAS PENGHUNI MEMILIKI ?"
                 android:fontFamily="sans-serif"
                 android:textStyle="bold"
@@ -326,6 +326,193 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:hint="Isi Disini" />
+
+
+            </LinearLayout>
+
+            //KOMPETITOR YANG SUDAH ADA DI AREA TERSEBUT ?
+            <TextView
+                android:id="@+id/etkompetitor"
+                android:text="KOMPETITOR YANG SUDAH ADA DI AREA TERSEBUT ?"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Pilihan Bisa Lebih Dari Satu :"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Media"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbAkompetitor"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indihome"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbBkompetitor"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biznet"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbCkompetitor"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Myrepublic"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbDkompetitor"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indosat GIG"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbEkompetitor"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yang lain:"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/cbFKompetitor"/>
+
+                <EditText
+                    android:id="@+id/edkompetitor"
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Isi Disini" />
+
+
+            </LinearLayout>
+
+            //MAYORITAS PENGHUNI MENGGUNAKAN PROVIDER DTH ?
+            <TextView
+                android:id="@+id/etMayoritasProvider"
+                android:text="MAYORITAS PENGHUNI MENGGUNAKAN PROVIDER DTH ?"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Pilihan Bisa Lebih Dari Satu :"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indovision/Oke/TOP TV"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbAMayoritas"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transvision"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbBMayoritas"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Big TV"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbCMayoritas"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange TV"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbDMayoritas"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topas TV"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbEMayoritas"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yang lain:"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/cbFMayoritas"/>
+
+                <EditText
+                    android:id="@+id/edMayoritas"
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Isi Disini" />
+
+                //BERAPA RATA-RATA BIAYA LANGGANAN INTERNET/PayTV WARGA SETEMPAT ?
+                <TextView
+                    android:id="@+id/etRata2BiayaInternet"
+                    android:text="KECAMATAN"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Tuliskan Harga Rata-Rata Biaya Langganan Internet/PayTV Warga Setempat (Misal : 500.000)"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="WAJIB DI ISI"
+                    android:id="@+id/edRata2BiayaInternet"
+                    android:layout_marginTop="5dp"/>
 
 
             </LinearLayout>
