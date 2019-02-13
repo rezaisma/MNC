@@ -1356,6 +1356,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_admin
 layout activity_identita__surveyor
 layout activity_info_kab_kota
 layout activity_informasi_detail_survey_area

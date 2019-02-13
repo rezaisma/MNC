@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".loginactivity.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,11 +25,11 @@
         </activity>
         //LOGIN ADMIN ACTIVITY
         <activity
-            android:name=".LoginAdminActivity"
+            android:name=".loginactivity.LoginAdminActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         //LOGIN USER ACTIVITY
         <activity
-            android:name=".LoginUserActivity"
+            android:name=".loginactivity.LoginUserActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         //TANGGAL SURVEY AREA
         <activity
@@ -44,8 +44,10 @@
             android:name=".InformasiDetailSurveyArea"
             android:label="@string/Info_detail_survey" />
         //IDENTITAS SURVEYOR
-        <activity android:name=".Identita_Surveyor"
-            android:label="@string/Identitas_Surveyor"/>
+        <activity
+            android:name=".Identita_Surveyor"
+            android:label="@string/Identitas_Surveyor" />
+        <activity android:name=".AdminActivity"></activity>
     </application>
 
 </manifest>
