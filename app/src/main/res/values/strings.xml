@@ -53,4 +53,52 @@
         <item>Bali</item>
         <item>Cirebon</item>
     </string-array>
+
+    <string-array name="str_kab">
+        <item>Jakarta Pusat</item>
+        <item>Jakarta Barat</item>
+        <item>Jakarta Timur</item>
+        <item>Jakarta Utara</item>
+        <item>Jakarta Selatan</item>
+        <item>Kab Kepulauan Seribu</item>
+        <item>Bogor</item>
+        <item>Kab Bogor</item>
+        <item>Depok</item>
+        <item>Tangerang</item>
+        <item>Tangerang Selatan</item>
+        <item>Kab Tangerang</item>
+        <item>Bekasi</item>
+        <item>Bandung</item>
+        <item>Kab Bandung</item>
+        <item>Kab Bandung Barat</item>
+        <item>Cimahi</item>
+        <item>Semarang</item>
+        <item>Kab Semarang</item>
+        <item>Kab Sidoarjo</item>
+        <item>Kab Gresik</item>
+        <item>Malang</item>
+        <item>Medan</item>
+        <item>Kab Deli Serdang</item>
+        <item>Denpasar</item>
+        <item>Cirebon</item>
+        <item>Kab Cirebon</item>
+        <item>Kab Karawang</item>
+        <item>Batu</item>
+        <item>Kab Kendal</item>
+        <item>Kab Sumedang</item>
+        <item>Kab Cianjur</item>
+        <item>Kab Brebes</item>
+        <item>Kab Banyumas(Purwokerto)</item>
+        <item>Magelang</item>
+        <item>Kab Pemalang</item>
+        <item>Kab Magelang</item>
+        <item>Salatiga</item>
+        <item>Kab Jombang</item>
+        <item>Mojokerto</item>
+        <item>Pasuruan</item>
+        <item>Madiun</item>
+    </string-array>
+
+
+
 </resources>
