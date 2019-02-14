@@ -528,6 +528,17 @@
                 android:gravity="center">
 
                 <Button
+                    android:id="@+id/btnBackDetailSurvey"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Kembali"
+                    android:layout_marginRight="50dp"
+                    android:background="#11000000"/>
+
+                <Button
                     android:id="@+id/btnNextDetailSurvey"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
@@ -535,18 +546,6 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:text="Berikutnya"
-                    android:layout_marginRight="50dp"
-                    android:background="#11000000"/>
-
-
-                <Button
-                    android:id="@+id/btnBackDetailSurvey"
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="5dp"
-                    android:text="Kemabali"
                     android:background="#11000000"/>
 
 

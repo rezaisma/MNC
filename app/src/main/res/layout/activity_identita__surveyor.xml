@@ -8,63 +8,6 @@
     android:padding="10dp"
     tools:context=".Identita_Surveyor">
 
-    //NAMA SURVEYOR
-    <TextView
-        android:id="@+id/etNama"
-        android:text="NAMA SURVEYOR"
-        android:fontFamily="sans-serif"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:text="Wajib Di Isi"
-        android:fontFamily="sans-serif"
-        android:textStyle="normal"
-        android:textSize="13dp"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:id="@+id/spinnerKabKota"
-        android:layout_marginTop="5dp"/>
-
-    //NOMOR HANDPHONE
-    <TextView
-        android:id="@+id/etNoTlpn"
-        android:text="NOMOR HANDPHONE"
-        android:fontFamily="sans-serif"
-        android:textStyle="bold"
-        android:textSize="25dp"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:text="Wajib Di Isi"
-        android:fontFamily="sans-serif"
-        android:textStyle="normal"
-        android:textSize="13dp"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="WAJIB DI ISI"
-        android:id="@+id/edNoTlpn"
-        android:layout_marginTop="5dp"/>\
-
     //REKOMENDASI SURVEYOR UNTUK ROLL-OUT ?
     <TextView
         android:id="@+id/etRekomen"
@@ -110,18 +53,6 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/btnFinish"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:text="Kirim"
-            android:layout_marginRight="50dp"
-            android:background="#11000000"/>
-
-
-        <Button
             android:id="@+id/btnBackIdentitas"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -129,8 +60,18 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:text="Kemabali"
+            android:layout_marginRight="50dp"
             android:background="#11000000"/>
 
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Kirim"
+            android:background="#11000000"/>
 
     </LinearLayout>
 
