@@ -20,11 +20,6 @@ public class Identita_Surveyor extends AppCompatActivity {
 
     @BindView(R.id.spinnerKabKota)
     Spinner spinnerKabKota;
-    @BindView(R.id.etNoTlpn)
-    TextView etNoTlpn;
-    @BindView(R.id.edNoTlpn)
-    EditText edNoTlpn;
-    @BindView(R.id.rbYa)
     RadioButton rbYa;
     @BindView(R.id.rbTidak)
     RadioButton rbTidak;

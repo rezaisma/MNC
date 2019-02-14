@@ -26,6 +26,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array planets_array
+array str_region
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1140,7 +1141,6 @@ id edKelurahan
 id edKompleks
 id edMayoritas
 id edMetode
-id edNoTlpn
 id edRata2BiayaInternet
 id edit_query
 id edkompetitor
@@ -1159,8 +1159,6 @@ id etKompleks
 id etMayoritasKendaraan
 id etMayoritasProvider
 id etMetodePembangunan
-id etNama
-id etNoTlpn
 id etRata2BiayaInternet
 id etRekomen
 id etkompetitor

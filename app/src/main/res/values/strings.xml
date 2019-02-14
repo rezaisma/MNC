@@ -43,4 +43,14 @@
         completions."
     </string>
 
+    <string-array name="str_region">
+        <item>Jabodetabek</item>
+        <item>Bandung</item>
+        <item>Semarang</item>
+        <item>Surabaya</item>
+        <item>Malang</item>
+        <item>Medan</item>
+        <item>Bali</item>
+        <item>Cirebon</item>
+    </string-array>
 </resources>
