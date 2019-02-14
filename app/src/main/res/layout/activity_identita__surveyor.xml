@@ -110,6 +110,17 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/btnBackIdentitas"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:text="Kemabali"
+            android:background="#11000000"/>
+
+        <Button
             android:id="@+id/btnFinish"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -117,19 +128,11 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:text="Kirim"
-            android:layout_marginRight="50dp"
+
             android:background="#11000000"/>
 
 
-        <Button
-            android:id="@+id/btnBackIdentitas"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:text="Kemabali"
-            android:background="#11000000"/>
+
 
 
     </LinearLayout>

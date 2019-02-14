@@ -6,6 +6,28 @@
     <string name="Identitas_Surveyor">IDENTITAS SURVEYOR</string>
 
 
+
+    //TODO input spinner nama surveyore
+    <string-array name="planets_array">
+        <item>Abid Ar Rizal</item>
+        <item>Ahmad Bachrul</item>
+        <item>Aditia Rahman</item>
+        <item>Agus Arifin</item>
+        <item>Agus Kristianto</item>
+        <item>Elfia Novia Kamil</item>
+        <item>Gunarto</item>
+        <item>Guntur Seriawan</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
     \
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->

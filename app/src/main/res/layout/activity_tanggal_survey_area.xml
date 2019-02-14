@@ -7,8 +7,20 @@
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
     android:orientation="vertical"
-    tools:context=".TanggalSurveyArea"
-    >
+    tools:context=".TanggalSurveyArea">
+
+
+    <TextView
+        android:text="[1 INPUTAN HASIL SURVEY UNTUK 1 RW]"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
 
 
     <TextView
@@ -22,22 +34,29 @@
         android:paddingTop="10dp"
         />
 
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:text="Format Tanggal: Hari, Tanggal, Tahun"-->
+        <!--android:textSize="15dp"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textStyle=""-->
+        <!--/>-->
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:text="Format Tanggal: Hari, Tanggal, Tahun"
-        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:hint="Input Tanggal Survey Area"
+        android:textSize="23sp"
         android:paddingLeft="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:textColor="@android:color/black"
         android:textStyle=""
+        android:id="@+id/tvDatePicker"
         />
 
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:id="@+id/spinerTgl"
-        />
 
 
     <TextView
