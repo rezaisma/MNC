@@ -142,11 +142,7 @@ ADDED from /Users/barney/Documents/MNC/app/src/main/AndroidManifest.xml:47:9-49:
 	android:name
 		ADDED from /Users/barney/Documents/MNC/app/src/main/AndroidManifest.xml:48:13-46
 activity#com.example.reza.form.AdminActivity
-<<<<<<< HEAD
-ADDED from /Users/reza/Documents/MNC/app/src/main/AndroidManifest.xml:50:9-50
-=======
-ADDED from /Users/barney/Documents/MNC/app/src/main/AndroidManifest.xml:50:9-60
->>>>>>> dd9dda0e33d822082993371fb0eeeffe2904453f
+ADDED from /Users/barney/Documents/MNC/app/src/main/AndroidManifest.xml:50:9-50
 	android:name
 		ADDED from /Users/barney/Documents/MNC/app/src/main/AndroidManifest.xml:50:19-48
 uses-sdk

@@ -3,15 +3,15 @@ package com.example.reza.form;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
-
-import com.example.reza.form.loginactivity.LoginAdminActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -111,6 +111,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
     TextView etMetodePembangunan;
     @BindView(R.id.etMayoritasProvider)
     TextView etMayoritasProvider;
+    RadioGroup Radiogroup1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -123,13 +124,27 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btnNextDetailSurvey:
-                Intent intent6 = new Intent(this, Identita_Surveyor.class);
-                startActivity(intent6);
-                break;
+
+                if (TextUtils.isEmpty(edDataHomePass.getText())) {
+                    edDataHomePass.setError("Harus Diisi");
+
+                }
+                if (TextUtils.isEmpty(edRata2BiayaInternet.getText())) {
+                    edRata2BiayaInternet.setError("Harus Diisi");
+//
+//                    }if (TextUtils.isEmpty(edDeveloper.getText())) {
+//                    edDeveloper.setError("Harus Diisi");
+
+                } else {
+                    Intent intent6 = new Intent(this, Identita_Surveyor.class);
+                    startActivity(intent6);
+                    break;
+                }
             case R.id.btnBackDetailSurvey:
                 Intent intent7 = new Intent(this, InfoKabKota.class);
                 startActivity(intent7);
                 break;
+
         }
     }
 }
