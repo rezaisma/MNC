@@ -1140,7 +1140,6 @@ id edKelurahan
 id edKompleks
 id edMayoritas
 id edMetode
-id edNoTlpn
 id edRata2BiayaInternet
 id edit_query
 id edkompetitor
@@ -1159,8 +1158,6 @@ id etKompleks
 id etMayoritasKendaraan
 id etMayoritasProvider
 id etMetodePembangunan
-id etNama
-id etNoTlpn
 id etRata2BiayaInternet
 id etRekomen
 id etkompetitor
