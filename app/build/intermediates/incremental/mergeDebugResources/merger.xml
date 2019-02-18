@@ -3640,6 +3640,49 @@
         <item>Medan</item>
         <item>Bali</item>
         <item>Cirebon</item>
+    </string-array><string-array name="str_kab">
+        <item>Jakarta Pusat</item>
+        <item>Jakarta Barat</item>
+        <item>Jakarta Timur</item>
+        <item>Jakarta Utara</item>
+        <item>Jakarta Selatan</item>
+        <item>Kab Kepulauan Seribu</item>
+        <item>Bogor</item>
+        <item>Kab Bogor</item>
+        <item>Depok</item>
+        <item>Tangerang</item>
+        <item>Tangerang Selatan</item>
+        <item>Kab Tangerang</item>
+        <item>Bekasi</item>
+        <item>Bandung</item>
+        <item>Kab Bandung</item>
+        <item>Kab Bandung Barat</item>
+        <item>Cimahi</item>
+        <item>Semarang</item>
+        <item>Kab Semarang</item>
+        <item>Kab Sidoarjo</item>
+        <item>Kab Gresik</item>
+        <item>Malang</item>
+        <item>Medan</item>
+        <item>Kab Deli Serdang</item>
+        <item>Denpasar</item>
+        <item>Cirebon</item>
+        <item>Kab Cirebon</item>
+        <item>Kab Karawang</item>
+        <item>Batu</item>
+        <item>Kab Kendal</item>
+        <item>Kab Sumedang</item>
+        <item>Kab Cianjur</item>
+        <item>Kab Brebes</item>
+        <item>Kab Banyumas(Purwokerto)</item>
+        <item>Magelang</item>
+        <item>Kab Pemalang</item>
+        <item>Kab Magelang</item>
+        <item>Salatiga</item>
+        <item>Kab Jombang</item>
+        <item>Mojokerto</item>
+        <item>Pasuruan</item>
+        <item>Madiun</item>
     </string-array></file><file name="ic_launcher" path="/Users/barney/Documents/MNC/app/src/main/res/mipmap-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/barney/Documents/MNC/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/Users/barney/Documents/MNC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="/Users/barney/Documents/MNC/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/></source><source path="/Users/barney/Documents/MNC/app/build/generated/res/rs/debug"/><source path="/Users/barney/Documents/MNC/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barney/Documents/MNC/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/barney/Documents/MNC/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>

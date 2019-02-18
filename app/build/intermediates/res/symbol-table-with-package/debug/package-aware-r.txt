@@ -26,6 +26,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array planets_array
+array str_kab
 array str_region
 attr actionBarDivider
 attr actionBarItemBackground
