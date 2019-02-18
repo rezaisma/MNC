@@ -142,7 +142,7 @@ ADDED from /Users/reza/Documents/MNC/app/src/main/AndroidManifest.xml:47:9-49:58
 	android:name
 		ADDED from /Users/reza/Documents/MNC/app/src/main/AndroidManifest.xml:48:13-46
 activity#com.example.reza.form.AdminActivity
-ADDED from /Users/reza/Documents/MNC/app/src/main/AndroidManifest.xml:50:9-60
+ADDED from /Users/reza/Documents/MNC/app/src/main/AndroidManifest.xml:50:9-50
 	android:name
 		ADDED from /Users/reza/Documents/MNC/app/src/main/AndroidManifest.xml:50:19-48
 uses-sdk

@@ -47,7 +47,7 @@
         <activity
             android:name=".Identita_Surveyor"
             android:label="@string/Identitas_Surveyor" />
-        <activity android:name=".AdminActivity"></activity>
+        <activity android:name=".AdminActivity"/>
     </application>
 
 </manifest>

@@ -51,6 +51,7 @@
         android:orientation="horizontal"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
+        android:weightSum="3"
         android:gravity="center">
 
         <Button
@@ -82,8 +83,6 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/ic_camera_alt_black_24dp"/>
-
-
 
 
 </LinearLayout>
