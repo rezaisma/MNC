@@ -44,6 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:id="@+id/spinnerKabKota"
+                android:entries="@array/str_kab"
                 android:layout_marginTop="5dp"/>
 
             //KECAMATAN
