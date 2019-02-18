@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.Spinner;
@@ -50,7 +51,6 @@ public class TanggalSurveyArea extends AppCompatActivity {
     public void onViewClicked() {
         Intent intent3 = new Intent(this, InfoKabKota.class);
         startActivity(intent3);
-
 
 
         //TODO https://www.youtube.com/watch?v=hwe1abDO2Ag  link date picker
