@@ -84,47 +84,138 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <CheckBox
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="A"
-                android:layout_marginTop="5dp"
-                android:id="@+id/cbAKlarifikasiTipe"/>
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A : "
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/cbAKlarifikasiTipe"/>
+
+
+                <EditText
+                    android:id="@+id/edKlarifikasiA"
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Isi Disini" />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="B"
+                android:text="B : "
                 android:layout_marginTop="5dp"
                 android:id="@+id/cbBKlarifikasiTipe"/>
 
+            <EditText
+                android:id="@+id/edKlarifikasiB"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Isi Disini" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="C"
+                android:text="C : "
                 android:layout_marginTop="5dp"
                 android:id="@+id/cbCKlarifikasiTipe"/>
 
+            <EditText
+                android:id="@+id/edKlarifikasiC"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Isi Disini" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="D"
+                android:text="D : "
                 android:layout_marginTop="5dp"
                 android:id="@+id/cbDKlarifikasiTipe"/>
 
-            <CheckBox
-                android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/edKlarifikasiD"
+                android:layout_width="297dp"
                 android:layout_height="wrap_content"
-                android:text="SOHO"
                 android:layout_marginTop="5dp"
-                android:id="@+id/cbEKlarifikasiTipe"/>
+                android:hint="Isi Disini" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kontrakan/Kos (KK)"
+                android:text="SOHO : "
+                android:layout_marginTop="5dp"
+                android:id="@+id/cbEKlarifikasiTipe"/>
+
+            <EditText
+                android:id="@+id/edKlarifikasiSoho"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Isi Disini" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrakan/Kos (KK) : "
                 android:layout_marginTop="5dp"
                 android:id="@+id/cbFKlarifikasiTipe"/>
+
+            <EditText
+                android:id="@+id/edKlarifikasiKos"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Isi Disini" />
+
+
+        </LinearLayout>
 
             //DATA HOMEPASS BERDASARKAN TIPE RUMAH
             <TextView
