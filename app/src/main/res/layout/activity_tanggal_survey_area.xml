@@ -23,39 +23,6 @@
         android:layout_height="wrap_content" />
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Tanggal Survey Area"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:id="@+id/EtTanggal"
-        android:paddingTop="10dp"
-        />
-
-    <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="20dp"-->
-        <!--android:text="Format Tanggal: Hari, Tanggal, Tahun"-->
-        <!--android:textSize="15dp"-->
-        <!--android:paddingLeft="5dp"-->
-        <!--android:textColor="@android:color/black"-->
-        <!--android:textStyle=""-->
-        <!--/>-->
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Input Tanggal Survey Area"
-        android:textSize="23sp"
-        android:paddingLeft="5dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="@android:color/black"
-        android:textStyle=""
-        android:id="@+id/tvDatePicker"
-        />
 
 
 

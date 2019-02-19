@@ -1036,7 +1036,6 @@ id ALT
 id CTRL
 id ETlogin1
 id ETlogin2
-id EtTanggal
 id FUNCTION
 id META
 id Radiogroup1
@@ -1305,7 +1304,6 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id tvDatePicker
 id uniform
 id unlabeled
 id up

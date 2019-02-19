@@ -126,6 +126,10 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.btnNextDetailSurvey:
 
+                //CB
+
+
+
                 if (TextUtils.isEmpty(edRata2BiayaInternet.getText())) {
                     edRata2BiayaInternet.setError("Harus Diisi");
 
