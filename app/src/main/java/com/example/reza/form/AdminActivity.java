@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class AdminActivity extends AppCompatActivity {
 
@@ -17,5 +18,9 @@ public class AdminActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
         ButterKnife.bind(this);
+    }
+
+    @OnClick(R.id.rv_admin)
+    public void onViewClicked() {
     }
 }
