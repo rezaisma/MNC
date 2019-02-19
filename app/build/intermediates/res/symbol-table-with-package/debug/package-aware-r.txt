@@ -1039,6 +1039,7 @@ id ETlogin2
 id EtTanggal
 id FUNCTION
 id META
+id Radiogroup1
 id SHIFT
 id SYM
 id action_bar
@@ -1140,6 +1141,12 @@ id edDataHomePass
 id edDeveloper
 id edKecamtan
 id edKelurahan
+id edKlarifikasiA
+id edKlarifikasiB
+id edKlarifikasiC
+id edKlarifikasiD
+id edKlarifikasiKos
+id edKlarifikasiSoho
 id edKompleks
 id edMayoritas
 id edMetode
