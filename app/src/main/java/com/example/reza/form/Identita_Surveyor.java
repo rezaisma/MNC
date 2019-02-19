@@ -18,10 +18,7 @@ import butterknife.OnClick;
 
 public class Identita_Surveyor extends AppCompatActivity {
 
-    @BindView(R.id.spinnerKabKota)
-    Spinner spinnerKabKota;
     @BindView(R.id.rbYa)
-
     RadioButton rbYa;
     @BindView(R.id.rbTidak)
     RadioButton rbTidak;

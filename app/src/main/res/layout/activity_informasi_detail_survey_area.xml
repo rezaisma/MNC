@@ -214,37 +214,7 @@
                 android:layout_marginTop="5dp"
                 android:hint="Isi Disini" />
 
-
         </LinearLayout>
-
-            //DATA HOMEPASS BERDASARKAN TIPE RUMAH
-            <TextView
-                android:id="@+id/etDataHomePass"
-                android:text="DATA HOMEPASS BERDASARKAN TIPE RUMAH"
-                android:fontFamily="sans-serif"
-                android:textStyle="bold"
-                android:textSize="25dp"
-                android:textColor="@android:color/black"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:text="Tuliskan Jumlah Homepass Berdasarkan Tipe Rumah Yang Dipilih (Misalnya Tipe A ada 100 dan Tipe B ada 200 Maka Tulis Dengan Format : A100-B200)"
-                android:fontFamily="sans-serif"
-                android:textStyle="normal"
-                android:textSize="13dp"
-                android:textColor="@android:color/black"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="WAJIB DI ISI"
-                android:id="@+id/edDataHomePass"
-                android:layout_marginTop="5dp"/>
 
             //MAYORITAS PENGHUNI MEMILIKI ?
             <TextView
