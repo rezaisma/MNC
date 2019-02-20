@@ -41,17 +41,12 @@ public class Identita_Surveyor extends AppCompatActivity {
     Button btnBackIdentitas;
 
 
-
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.example_menu, menu);
         return true;
     }
-
-
 
 
     @Override
@@ -100,8 +95,6 @@ public class Identita_Surveyor extends AppCompatActivity {
         ButterKnife.bind(this);
 
         image = (ImageView)findViewById(R.id.ivIdentitas);
-
-
 
     }
 
