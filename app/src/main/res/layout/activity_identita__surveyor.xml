@@ -9,6 +9,7 @@
     tools:context=".Identita_Surveyor">
 
     //REKOMENDASI SURVEYOR UNTUK ROLL-OUT ?
+
     <TextView
         android:id="@+id/etRekomen"
         android:text="REKOMENDASI SURVEYOR UNTUK ROLL-OUT ?"
@@ -19,7 +20,6 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
     <TextView
         android:text="Wajib Di Isi"
         android:fontFamily="sans-serif"
@@ -44,11 +44,11 @@
         android:layout_marginTop="5dp"
         android:id="@+id/rbTidak"/>
 
-    <Button
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:background="@drawable/ic_camera_alt_black_24dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="5dp"
+        android:id="@+id/ivIdentitas"/>
 
 
 
@@ -85,6 +85,8 @@
 
 
     </LinearLayout>
+
+
 
 
 
