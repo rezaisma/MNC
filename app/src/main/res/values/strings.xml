@@ -6,7 +6,6 @@
     <string name="Identitas_Surveyor">IDENTITAS SURVEYOR</string>
 
 
-
     //TODO input spinner nama surveyore
     <string-array name="planets_array">
         <item>Abid Ar Rizal</item>
@@ -100,7 +99,7 @@
         <item>Pasuruan</item>
         <item>Madiun</item>
     </string-array>
-
+    <string name="title_activity_identitas">Identitas</string>
 
 
 </resources>

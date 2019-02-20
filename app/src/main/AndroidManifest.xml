@@ -8,11 +8,6 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-
-
-
 
 
     <application
@@ -55,7 +50,7 @@
         <activity
             android:name=".Identita_Surveyor"
             android:label="@string/Identitas_Surveyor" />
-        <activity android:name=".AdminActivity"/>
+        <activity android:name=".AdminActivity" />
     </application>
 
 </manifest>
