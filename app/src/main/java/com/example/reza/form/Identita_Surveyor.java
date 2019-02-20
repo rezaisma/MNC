@@ -49,13 +49,13 @@ public class Identita_Surveyor extends AppCompatActivity {
     }
 
 
-    @Override
+       @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.btnCamera:
                 Intent iCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 if(iCamera.resolveActivity(getPackageManager()) != null){
-                    startActivityForResult(iCamera,REQUEST_IMAGE_CAPTURE);
+                    startActivityForResult(iCamera,0);
                 }
                 break;
             case R.id.btnGallery:
@@ -72,7 +72,7 @@ public class Identita_Surveyor extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK) {
-            if (requestCode == REQUEST_IMAGE_CAPTURE){
+            if (requestCode == 0){
                 Bitmap bitmap = (Bitmap) data.getExtras().get("data");
                 image.setImageBitmap(bitmap);
             }else if (requestCode == REQUEST_IMAGE_GALLERY){
