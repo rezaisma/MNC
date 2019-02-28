@@ -132,7 +132,6 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
         setContentView(R.layout.activity_informasi_detail_survey_area);
         ButterKnife.bind(this);
 
-        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
 
         //TODO RADIO GROUP
         Radiogroup = findViewById(R.id.Radiogroup1);
@@ -155,7 +154,6 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
         btnBDS =  findViewById(R.id.btnBackDetailSurvey);
 
 
-        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
 
     //TODO STRING JENIS PROPERTI
         s_cbajenispro="";
@@ -171,7 +169,6 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
         s_eklartipe="";
         s_fklartipe="";
 
-        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
 
         //TODO CHECKBOX JENIS PROPERTI
         if (CBAjenisPro.isChecked()){
@@ -230,7 +227,6 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
             s_fklartipe="";
         }
 
-        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
 
         //TODO BUTTON NEXT
         btnNDS.setOnClickListener(new View.OnClickListener() {
@@ -238,15 +234,24 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (!CBAjenisPro.isChecked() && !CBBjenisPro.isChecked() && !CBCjenisPro.isChecked() &&
-
-                        !CBAklartipe.isChecked() && !CBBklartipe.isChecked() && !CBCklartipe.isChecked() && !CBDklartipe.isChecked() && !CBEklartipe.isChecked() && !CBFklartipe.isChecked()){
-
+                if (!CBAjenisPro.isChecked() && !CBBjenisPro.isChecked() && !CBCjenisPro.isChecked()){
 
                     CBAjenisPro.setError("isi data");
                     CBBjenisPro.setError("isi data");
                     CBCjenisPro.setError("isi data");
+
                     Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya", Toast.LENGTH_SHORT).show();
+
+                if (!CBAklartipe.isChecked() && !CBBklartipe.isChecked() && !CBCklartipe.isChecked() && !CBDklartipe.isChecked() && !CBEklartipe.isChecked() && !CBFklartipe.isChecked())
+
+                    CBAklartipe.setError("isi data");
+                    CBBklartipe.setError("isi data");
+                    CBCklartipe.setError("isi data");
+                    CBDklartipe.setError("isi data");
+                    CBEklartipe.setError("isi data");
+                    CBFklartipe.setError("isi data");
+
+                    Toast.makeText(InformasiDetailSurveyArea.this, "Isi data", Toast.LENGTH_SHORT).show();
 
                     if (TextUtils.isEmpty(edRata2BiayaInternet.getText())) {
                         edRata2BiayaInternet.setError("Harus Diisi");

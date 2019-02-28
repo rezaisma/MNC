@@ -94,9 +94,6 @@
                     android:layout_height="wrap_content"
                     android:text="A : "
                     android:layout_marginTop="5dp"
-                    android:focusableInTouchMode="true"
-                    android:focusable="true"
-                    android:checked="false"
                     android:id="@+id/cbAKlarifikasiTipe"/>
 
 
@@ -106,6 +103,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:inputType="number"
+                    android:visibility="visible"
                     android:hint="Isi Disini" />
 
 
@@ -121,9 +119,7 @@
                 android:layout_height="wrap_content"
                 android:text="B : "
                 android:layout_marginTop="5dp"
-                android:focusableInTouchMode="true"
-                android:focusable="true"
-                android:checked="false"
+                android:visibility="visible"
                 android:id="@+id/cbBKlarifikasiTipe"/>
 
             <EditText
@@ -147,9 +143,7 @@
                 android:layout_height="wrap_content"
                 android:text="C : "
                 android:layout_marginTop="5dp"
-                android:focusableInTouchMode="true"
-                android:focusable="true"
-                android:checked="false"
+                android:visibility="visible"
                 android:id="@+id/cbCKlarifikasiTipe"/>
 
             <EditText
@@ -172,9 +166,7 @@
                 android:layout_height="wrap_content"
                 android:text="D : "
                 android:layout_marginTop="5dp"
-                android:focusableInTouchMode="true"
-                android:focusable="true"
-                android:checked="false"
+                android:visibility="visible"
                 android:id="@+id/cbDKlarifikasiTipe"/>
 
             <EditText
@@ -198,9 +190,7 @@
                 android:layout_height="wrap_content"
                 android:text="SOHO : "
                 android:layout_marginTop="5dp"
-                android:focusableInTouchMode="true"
-                android:focusable="true"
-                android:checked="false"
+                android:visibility="visible"
                 android:id="@+id/cbEKlarifikasiTipe"/>
 
             <EditText
@@ -224,9 +214,7 @@
                 android:layout_height="wrap_content"
                 android:text="Kontrakan/Kos (KK) : "
                 android:layout_marginTop="5dp"
-                android:focusableInTouchMode="true"
-                android:focusable="true"
-                android:checked="false"
+                android:visibility="visible"
                 android:id="@+id/cbFKlarifikasiTipe"/>
 
             <EditText
