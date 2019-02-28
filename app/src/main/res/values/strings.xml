@@ -43,7 +43,6 @@
     </string>
 
     <string-array name="str_region">
-        <item>None Selected</item>
         <item>Jabodetabek</item>
         <item>Bandung</item>
         <item>Semarang</item>
@@ -55,7 +54,6 @@
     </string-array>
 
     <string-array name="str_kab">
-        <item>None Selected</item>
         <item>Jakarta Pusat</item>
         <item>Jakarta Barat</item>
         <item>Jakarta Timur</item>
