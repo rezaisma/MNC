@@ -43,7 +43,6 @@
     </string>
 
     <string-array name="str_region">
-        <item>None Selected</item>
         <item>Jabodetabek</item>
         <item>Bandung</item>
         <item>Semarang</item>

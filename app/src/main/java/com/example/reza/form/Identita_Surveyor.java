@@ -1,5 +1,6 @@
 package com.example.reza.form;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -7,6 +8,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -15,6 +17,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,6 +42,8 @@ public class Identita_Surveyor extends AppCompatActivity {
     Button btnFinish;
     @BindView(R.id.btnBackIdentitas)
     Button btnBackIdentitas;
+    RadioGroup Radiogroup2;
+    RadioButton radioButton;
 
 
     @Override
@@ -97,18 +102,31 @@ public class Identita_Surveyor extends AppCompatActivity {
         image = (ImageView)findViewById(R.id.ivIdentitas);
 
     }
-
+    @SuppressLint("ResourceType")
     @OnClick({R.id.btnFinish, R.id.btnBackIdentitas})
     public void onViewClicked(View view) {
         switch (view.getId()) {
 
             case R.id.btnFinish:
+
+
+                if(Radiogroup2.getCheckedRadioButtonId()<=0){//Grp is your radio group object
+                int radioPW = Radiogroup2.getCheckedRadioButtonId();
+                radioButton = findViewById(radioPW);
+                rbYa.setError("Select Item");//Set error to last Radio button
+                    rbYa.setError(null);
+
+
+            } else {
+                Intent intent6 = new Intent(this, Identita_Surveyor.class);
+                startActivity(intent6);
+            }
                 break;
-            case R.id.btnBackIdentitas:
+
+                    case R.id.btnBackIdentitas:
                 Intent intent8 = new Intent(this, InformasiDetailSurveyArea.class);
                 startActivity(intent8);
                 break;
         }
     }
 }
-//1

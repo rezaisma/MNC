@@ -13,12 +13,27 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class InformasiDetailSurveyArea extends AppCompatActivity {
+
+
+    //TODO CHECKBOX GROUP
+     CheckBox CBAjenisPro, CBBjenisPro, CBCjenisPro,
+              CBAklartipe, CBBklartipe, CBCklartipe, CBDklartipe, CBEklartipe, CBFklartipe;
+
+    //TODO BUTTON GROUP
+     Button btnNDS, btnBDS;
+
+    //TODO STRING GROUP
+     String s_cbajenispro, s_cbbjenispro, s_cbcjenispro,
+            s_aklartipe, s_bklartipe, s_cklartipe, s_dklartipe, s_eklartipe, s_fklartipe;
+
+
 
     @BindView(R.id.cbAjenisPro)
     CheckBox cbAjenisPro;
@@ -117,42 +132,151 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
         setContentView(R.layout.activity_informasi_detail_survey_area);
         ButterKnife.bind(this);
 
+        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
+
+        //TODO RADIO GROUP
         Radiogroup = findViewById(R.id.Radiogroup1);
-    }
 
-    @SuppressLint("ResourceType")
-    @OnClick({R.id.btnNextDetailSurvey, R.id.btnBackDetailSurvey})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
-            case R.id.btnNextDetailSurvey:
+        //TODO CHECKBOX JENIS PROPERTI
+        CBAjenisPro =  findViewById(R.id.cbAjenisPro);
+        CBBjenisPro =  findViewById(R.id.cbBjenisPro);
+        CBCjenisPro =  findViewById(R.id.cbCjenisPro);
 
-                //CB
+        //TODO KLARIFIKASI TIPE
+        CBAklartipe =  findViewById(R.id.cbAKlarifikasiTipe);
+        CBBklartipe =  findViewById(R.id.cbBKlarifikasiTipe);
+        CBCklartipe =  findViewById(R.id.cbCKlarifikasiTipe);
+        CBDklartipe =  findViewById(R.id.cbDKlarifikasiTipe);
+        CBEklartipe =  findViewById(R.id.cbEKlarifikasiTipe);
+        CBFklartipe =  findViewById(R.id.cbFKlarifikasiTipe);
 
-
-
-                if (TextUtils.isEmpty(edRata2BiayaInternet.getText())) {
-                    edRata2BiayaInternet.setError("Harus Diisi");
-
-
-                }if(Radiogroup.getCheckedRadioButtonId()<=0){//Grp is your radio group object
-                    int radioId = Radiogroup.getCheckedRadioButtonId();
-                    radioButton = findViewById(radioId);
-                    rbMotor.setError("Select Item");//Set error to last Radio button
-//                    rbMotor.setError(null);
+        //TODO BUTTON
+        btnNDS =  findViewById(R.id.btnNextDetailSurvey);
+        btnBDS =  findViewById(R.id.btnBackDetailSurvey);
 
 
-                } else {
-                Intent intent6 = new Intent(this, Identita_Surveyor.class);
-                startActivity(intent6);
-            }
-                    break;
+        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
+
+    //TODO STRING JENIS PROPERTI
+        s_cbajenispro="";
+        s_cbbjenispro="";
+        s_cbcjenispro="";
 
 
-            case R.id.btnBackDetailSurvey:
-                Intent intent7 = new Intent(this, InfoKabKota.class);
-                startActivity(intent7);
-                break;
+    //TODO STRING KLARIFIKASI TIPE
+        s_aklartipe="";
+        s_bklartipe="";
+        s_cklartipe="";
+        s_dklartipe="";
+        s_eklartipe="";
+        s_fklartipe="";
 
+        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
+
+        //TODO CHECKBOX JENIS PROPERTI
+        if (CBAjenisPro.isChecked()){
+            s_cbajenispro=CBAjenisPro.getText().toString();
+        } else {
+            s_cbajenispro="";
         }
+
+        if (CBBjenisPro.isChecked()){
+            s_cbbjenispro=CBBjenisPro.getText().toString();
+        } else {
+            s_cbbjenispro="";
+        }
+
+        if (CBCjenisPro.isChecked()){
+            s_cbcjenispro=CBCjenisPro.getText().toString();
+        } else {
+            s_cbcjenispro="";
+        }
+
+
+        //TODO CHECKBOX KLARIFIKASI TIPE
+        if (CBAklartipe.isChecked()){
+            s_aklartipe=CBAklartipe.getText().toString();
+        } else {
+            s_aklartipe="";
+        }
+
+        if (CBBklartipe.isChecked()){
+            s_bklartipe=CBBklartipe.getText().toString();
+        } else {
+            s_bklartipe="";
+        }
+
+        if (CBCklartipe.isChecked()){
+            s_cklartipe=CBCklartipe.getText().toString();
+        } else {
+            s_cklartipe="";
+        }
+
+        if (CBDklartipe.isChecked()){
+            s_dklartipe=CBDklartipe.getText().toString();
+        } else {
+            s_dklartipe="";
+        }
+
+        if (CBEklartipe.isChecked()){
+            s_eklartipe=CBEklartipe.getText().toString();
+        } else {
+            s_eklartipe="";
+        }
+
+        if (CBFklartipe.isChecked()){
+            s_fklartipe=CBFklartipe.getText().toString();
+        } else {
+            s_fklartipe="";
+        }
+
+        //TODO #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=
+
+        //TODO BUTTON NEXT
+        btnNDS.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
+            @Override
+            public void onClick(View v) {
+
+                if (!CBAjenisPro.isChecked() && !CBBjenisPro.isChecked() && !CBCjenisPro.isChecked() &&
+
+                        !CBAklartipe.isChecked() && !CBBklartipe.isChecked() && !CBCklartipe.isChecked() && !CBDklartipe.isChecked() && !CBEklartipe.isChecked() && !CBFklartipe.isChecked()){
+
+
+                    CBAjenisPro.setError("isi data");
+                    CBBjenisPro.setError("isi data");
+                    CBCjenisPro.setError("isi data");
+                    Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya", Toast.LENGTH_SHORT).show();
+
+                    if (TextUtils.isEmpty(edRata2BiayaInternet.getText())) {
+                        edRata2BiayaInternet.setError("Harus Diisi");
+                    }
+
+                    if (Radiogroup.getCheckedRadioButtonId() <= 0) {
+                        int radioId = Radiogroup.getCheckedRadioButtonId();
+                        radioButton = findViewById(radioId);
+                        rbMotor.setError("Select Item");
+                    }
+                } else {
+                    Intent intentnext = new Intent(getApplicationContext(),Identita_Surveyor.class);
+                    startActivity(intentnext);
+                }
+            }
+
+        });
+
+
+        //TODO BUTTON BACK
+        btnBDS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intentback = new Intent(getApplicationContext(),InfoKabKota.class);
+                startActivity(intentback);
+
+            }
+        });
+
     }
+
 }

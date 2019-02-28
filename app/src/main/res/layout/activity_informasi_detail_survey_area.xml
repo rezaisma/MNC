@@ -94,14 +94,18 @@
                     android:layout_height="wrap_content"
                     android:text="A : "
                     android:layout_marginTop="5dp"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    android:checked="false"
                     android:id="@+id/cbAKlarifikasiTipe"/>
 
 
                 <EditText
                     android:id="@+id/edKlarifikasiA"
-                    android:layout_width="297dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
+                    android:inputType="number"
                     android:hint="Isi Disini" />
 
 
@@ -117,13 +121,17 @@
                 android:layout_height="wrap_content"
                 android:text="B : "
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbBKlarifikasiTipe"/>
 
             <EditText
                 android:id="@+id/edKlarifikasiB"
-                android:layout_width="297dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:inputType="number"
                 android:hint="Isi Disini" />
 
 
@@ -139,13 +147,17 @@
                 android:layout_height="wrap_content"
                 android:text="C : "
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbCKlarifikasiTipe"/>
 
             <EditText
                 android:id="@+id/edKlarifikasiC"
-                android:layout_width="297dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:inputType="number"
                 android:hint="Isi Disini" />
 
         </LinearLayout>
@@ -160,13 +172,17 @@
                 android:layout_height="wrap_content"
                 android:text="D : "
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbDKlarifikasiTipe"/>
 
             <EditText
                 android:id="@+id/edKlarifikasiD"
-                android:layout_width="297dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:inputType="number"
                 android:hint="Isi Disini" />
 
         </LinearLayout>
@@ -182,11 +198,14 @@
                 android:layout_height="wrap_content"
                 android:text="SOHO : "
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbEKlarifikasiTipe"/>
 
             <EditText
                 android:id="@+id/edKlarifikasiSoho"
-                android:layout_width="297dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:hint="Isi Disini" />
@@ -205,11 +224,14 @@
                 android:layout_height="wrap_content"
                 android:text="Kontrakan/Kos (KK) : "
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbFKlarifikasiTipe"/>
 
             <EditText
                 android:id="@+id/edKlarifikasiKos"
-                android:layout_width="177dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:hint="Isi Disini" />
@@ -285,6 +307,9 @@
                 android:layout_height="wrap_content"
                 android:text="Kabel Udara"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbAMetode"/>
 
             <CheckBox
@@ -292,6 +317,9 @@
                 android:layout_height="wrap_content"
                 android:text="Underground"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbBMetode"/>
 
             <CheckBox
@@ -299,6 +327,9 @@
                 android:layout_height="wrap_content"
                 android:text="Sewer/Got"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbCMetode"/>
 
             <LinearLayout
@@ -311,11 +342,14 @@
                     android:layout_height="wrap_content"
                     android:text="Yang lain:"
                     android:layout_marginTop="5dp"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    android:checked="false"
                     android:id="@+id/cbDMetode"/>
 
                 <EditText
                     android:id="@+id/edMetode"
-                    android:layout_width="297dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:hint="Isi Disini" />
@@ -350,6 +384,9 @@
                 android:layout_height="wrap_content"
                 android:text="Door to Door/Direct Mail"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbAAkses"/>
 
             <CheckBox
@@ -357,6 +394,9 @@
                 android:layout_height="wrap_content"
                 android:text="Open Booth"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbBAkses"/>
 
             <CheckBox
@@ -364,6 +404,9 @@
                 android:layout_height="wrap_content"
                 android:text="Branding Car"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbCAkses"/>
 
             <LinearLayout
@@ -376,11 +419,14 @@
                     android:layout_height="wrap_content"
                     android:text="Yang lain:"
                     android:layout_marginTop="5dp"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    android:checked="false"
                     android:id="@+id/cbDAkses"/>
 
                 <EditText
                     android:id="@+id/edAkses"
-                    android:layout_width="297dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:hint="Isi Disini" />
@@ -415,6 +461,9 @@
                 android:layout_height="wrap_content"
                 android:text="First Media"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbAkompetitor"/>
 
             <CheckBox
@@ -422,6 +471,9 @@
                 android:layout_height="wrap_content"
                 android:text="Indihome"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbBkompetitor"/>
 
             <CheckBox
@@ -429,6 +481,9 @@
                 android:layout_height="wrap_content"
                 android:text="Biznet"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbCkompetitor"/>
 
             <CheckBox
@@ -436,6 +491,9 @@
                 android:layout_height="wrap_content"
                 android:text="Myrepublic"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbDkompetitor"/>
 
             <CheckBox
@@ -443,6 +501,9 @@
                 android:layout_height="wrap_content"
                 android:text="Indosat GIG"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbEkompetitor"/>
 
             <LinearLayout
@@ -455,11 +516,14 @@
                     android:layout_height="wrap_content"
                     android:text="Yang lain:"
                     android:layout_marginTop="5dp"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    android:checked="false"
                     android:id="@+id/cbFKompetitor"/>
 
                 <EditText
                     android:id="@+id/edkompetitor"
-                    android:layout_width="297dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:hint="Isi Disini" />
@@ -494,6 +558,9 @@
                 android:layout_height="wrap_content"
                 android:text="Indovision/Oke/TOP TV"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbAMayoritas"/>
 
             <CheckBox
@@ -501,6 +568,9 @@
                 android:layout_height="wrap_content"
                 android:text="Transvision"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbBMayoritas"/>
 
             <CheckBox
@@ -508,6 +578,9 @@
                 android:layout_height="wrap_content"
                 android:text="Big TV"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbCMayoritas"/>
 
             <CheckBox
@@ -515,6 +588,9 @@
                 android:layout_height="wrap_content"
                 android:text="Orange TV"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbDMayoritas"/>
 
             <CheckBox
@@ -522,6 +598,9 @@
                 android:layout_height="wrap_content"
                 android:text="Topas TV"
                 android:layout_marginTop="5dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:checked="false"
                 android:id="@+id/cbEMayoritas"/>
 
             <LinearLayout
@@ -534,6 +613,9 @@
                     android:layout_height="wrap_content"
                     android:text="Yang lain:"
                     android:layout_marginTop="5dp"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    android:checked="false"
                     android:id="@+id/cbFMayoritas"/>
 
                 <EditText
@@ -548,7 +630,7 @@
             //BERAPA RATA-RATA BIAYA LANGGANAN INTERNET/PayTV WARGA SETEMPAT ?
             <TextView
                 android:id="@+id/etRata2BiayaInternet"
-                android:text="KECAMATAN"
+                android:text="BERAPA RATA-RATA BIAYA LANGGAANAN INTERNET/PayTV WARGA SETEMPAT"
                 android:fontFamily="sans-serif"
                 android:textStyle="bold"
                 android:textSize="25dp"

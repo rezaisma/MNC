@@ -1042,6 +1042,7 @@ id ETlogin2
 id FUNCTION
 id META
 id Radiogroup1
+id Radiogroup2
 id SHIFT
 id SYM
 id action_bar
@@ -1404,6 +1405,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu example_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string Identitas_Surveyor
 string Info_Kab_Kota
