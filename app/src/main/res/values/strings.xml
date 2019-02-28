@@ -54,7 +54,6 @@
     </string-array>
 
     <string-array name="str_kab">
-        <item>None Selected</item>
         <item>Jakarta Pusat</item>
         <item>Jakarta Barat</item>
         <item>Jakarta Timur</item>
