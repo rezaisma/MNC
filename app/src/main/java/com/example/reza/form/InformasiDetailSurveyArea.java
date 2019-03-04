@@ -241,6 +241,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
         //TODO CHECKBOX JENIS PROPERTI
         if (CBAjenisPro.isChecked()){
             s_cbajenispro=CBAjenisPro.getText().toString();
+            Toast.makeText(this, "Rumah Tinggal/Open Area", Toast.LENGTH_SHORT).show();
         } else {
             s_cbajenispro="";
         }
