@@ -386,42 +386,42 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                                         }
 
 
-        //TODO CHECKBOX KOMPETITOR
-        if (CBAPro.isChecked()){
-            s_cbapro=CBAPro.getText().toString();
-        } else {
-            s_cbapro="";
-        }
+                                                //TODO CHECKBOX KOMPETITOR
+                                                if (CBAPro.isChecked()){
+                                                    s_cbapro=CBAPro.getText().toString();
+                                                } else {
+                                                    s_cbapro="";
+                                                }
 
-        if (CBBPro.isChecked()){
-            s_cbbpro=CBBPro.getText().toString();
-        } else {
-            s_cbbpro="";
-        }
+                                                if (CBBPro.isChecked()){
+                                                    s_cbbpro=CBBPro.getText().toString();
+                                                } else {
+                                                    s_cbbpro="";
+                                                }
 
-        if (CBCPro.isChecked()){
-            s_cbcpro=CBCPro.getText().toString();
-        } else {
-            s_cbcpro="";
-        }
+                                                if (CBCPro.isChecked()){
+                                                    s_cbcpro=CBCPro.getText().toString();
+                                                } else {
+                                                    s_cbcpro="";
+                                                }
 
-        if (CBDPro.isChecked()){
-            s_cbdpro=CBDPro.getText().toString();
-        } else {
-            s_cbdpro="";
-        }
+                                                if (CBDPro.isChecked()){
+                                                    s_cbdpro=CBDPro.getText().toString();
+                                                } else {
+                                                    s_cbdpro="";
+                                                }
 
-        if (CBEPro.isChecked()){
-            s_cbepro=CBEPro.getText().toString();
-        } else {
-            s_cbepro="";
-        }
+                                                if (CBEPro.isChecked()){
+                                                    s_cbepro=CBEPro.getText().toString();
+                                                } else {
+                                                    s_cbepro="";
+                                                }
 
-        if (CBFPro.isChecked()){
-            s_cbfpro=CBFPro.getText().toString();
-        } else {
-            s_cbfpro="";
-        }
+                                                if (CBFPro.isChecked()){
+                                                    s_cbfpro=CBFPro.getText().toString();
+                                                } else {
+                                                    s_cbfpro="";
+                                                }
 
 
         //TODO BUTTON NEXT
@@ -433,12 +433,13 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
 
                 if (!CBAjenisPro.isChecked() && !CBBjenisPro.isChecked() && !CBCjenisPro.isChecked()) {
 
-                        CBAjenisPro.setError("isi data");
-                        CBBjenisPro.setError("isi data");
-                        CBCjenisPro.setError("isi data");
+                    CBAjenisPro.setError("isi data");
+                    CBBjenisPro.setError("isi data");
+                    CBCjenisPro.setError("isi data");
 
                     Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya", Toast.LENGTH_SHORT).show();
 
+                }
                     if (!CBAklartipe.isChecked() && !CBBklartipe.isChecked() && !CBCklartipe.isChecked() && !CBDklartipe.isChecked() && !CBEklartipe.isChecked() && !CBFklartipe.isChecked()) {
 
                         CBAklartipe.setError("isi data");
@@ -510,7 +511,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                             int radioId = Radiogroup.getCheckedRadioButtonId();
                             radioButton = findViewById(radioId);
                             rbMotor.setError("Select Item");
-                        }
+
                     } else {
                         Intent intentnext = new Intent(getApplicationContext(), Identita_Surveyor.class);
                         startActivity(intentnext);
