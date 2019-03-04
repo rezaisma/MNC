@@ -438,7 +438,6 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                     CBCjenisPro.setError("isi data");
 
                     Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya", Toast.LENGTH_SHORT).show();
-
                 }
                     if (!CBAklartipe.isChecked() && !CBBklartipe.isChecked() && !CBCklartipe.isChecked() && !CBDklartipe.isChecked() && !CBEklartipe.isChecked() && !CBFklartipe.isChecked()) {
 
@@ -505,12 +504,15 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
 
                         if (TextUtils.isEmpty(edRata2BiayaInternet.getText())) {
                             edRata2BiayaInternet.setError("Harus Diisi");
+
                         }
 
                         if (Radiogroup.getCheckedRadioButtonId() <= 0) {
                             int radioId = Radiogroup.getCheckedRadioButtonId();
                             radioButton = findViewById(radioId);
                             rbMotor.setError("Select Item");
+                            
+
 
                     } else {
                         Intent intentnext = new Intent(getApplicationContext(), Identita_Surveyor.class);
