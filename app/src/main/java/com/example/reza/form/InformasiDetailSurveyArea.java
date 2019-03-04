@@ -248,12 +248,14 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
 
         if (CBBjenisPro.isChecked()){
             s_cbbjenispro=CBBjenisPro.getText().toString();
+            Toast.makeText(this, "Rumah Tinggal/Komplek/Cluster", Toast.LENGTH_SHORT).show();
         } else {
             s_cbbjenispro="";
         }
 
         if (CBCjenisPro.isChecked()){
             s_cbcjenispro=CBCjenisPro.getText().toString();
+            Toast.makeText(this, "Ruko/Rukan", Toast.LENGTH_SHORT).show();
         } else {
             s_cbcjenispro="";
         }
@@ -262,36 +264,42 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                 //TODO CHECKBOX KLARIFIKASI TIPE
                 if (CBAklartipe.isChecked()){
                     s_aklartipe=CBAklartipe.getText().toString();
+                    Toast.makeText(this, "A", Toast.LENGTH_SHORT).show();
                 } else {
                     s_aklartipe="";
                 }
 
                 if (CBBklartipe.isChecked()){
                     s_bklartipe=CBBklartipe.getText().toString();
+                    Toast.makeText(this, "B", Toast.LENGTH_SHORT).show();
                 } else {
                     s_bklartipe="";
                 }
 
                 if (CBCklartipe.isChecked()){
                     s_cklartipe=CBCklartipe.getText().toString();
+                    Toast.makeText(this, "C", Toast.LENGTH_SHORT).show();
                 } else {
                     s_cklartipe="";
                 }
 
                 if (CBDklartipe.isChecked()){
                     s_dklartipe=CBDklartipe.getText().toString();
+                    Toast.makeText(this, "D", Toast.LENGTH_SHORT).show();
                 } else {
                     s_dklartipe="";
                 }
 
                 if (CBEklartipe.isChecked()){
                     s_eklartipe=CBEklartipe.getText().toString();
+                    Toast.makeText(this, "SOHO", Toast.LENGTH_SHORT).show();
                 } else {
                     s_eklartipe="";
                 }
 
                 if (CBFklartipe.isChecked()){
                     s_fklartipe=CBFklartipe.getText().toString();
+                    Toast.makeText(this, "Kontrakan/Kos(KK)", Toast.LENGTH_SHORT).show();
                 } else {
                     s_fklartipe="";
                 }
@@ -300,24 +308,28 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                         //TODO CHECKBOX METODE PEMBANGUNAN
                         if (CBAMetod.isChecked()){
                             s_cbametode=CBAMetod.getText().toString();
+                            Toast.makeText(this, "Kabel Udara", Toast.LENGTH_SHORT).show();
                         } else {
                             s_cbametode="";
                         }
 
                         if (CBBMetod.isChecked()){
                             s_cbbmetode=CBBMetod.getText().toString();
+                            Toast.makeText(this, "Underground", Toast.LENGTH_SHORT).show();
                         } else {
                             s_cbbmetode="";
                         }
 
                         if (CBCMetod.isChecked()){
                             s_cbcmetode=CBCMetod.getText().toString();
+                            Toast.makeText(this, "Sewer/Got", Toast.LENGTH_SHORT).show();
                         } else {
                             s_cbcmetode="";
                         }
 
                         if (CBDMetod.isChecked()){
                             s_cbdmetode=CBDMetod.getText().toString();
+                            Toast.makeText(this, "Yang Lain", Toast.LENGTH_SHORT).show();
                         } else {
                             s_cbdmetode="";
                         }
@@ -326,24 +338,28 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                                 //TODO CHECKBOX AKSES PENJUALAN
                                 if (CBAAkses.isChecked()){
                                     s_cbaakses=CBAAkses.getText().toString();
+                                    Toast.makeText(this, "Door To Door/Direct Mail", Toast.LENGTH_SHORT).show();
                                 } else {
                                     s_cbaakses="";
                                 }
 
                                 if (CBBAkses.isChecked()){
                                     s_cbbakses=CBBAkses.getText().toString();
+                                    Toast.makeText(this, "Open Booth", Toast.LENGTH_SHORT).show();
                                 } else {
                                     s_cbbakses="";
                                 }
 
                                 if (CBCAkses.isChecked()){
                                     s_cbcakses=CBCAkses.getText().toString();
+                                    Toast.makeText(this, "Branding Car", Toast.LENGTH_SHORT).show();
                                 } else {
                                     s_cbcakses="";
                                 }
 
                                 if (CBDAkses.isChecked()){
                                     s_cbdakses=CBDAkses.getText().toString();
+                                    Toast.makeText(this, "Yang Lain", Toast.LENGTH_SHORT).show();
                                 } else {
                                     s_cbdakses="";
                                 }
@@ -352,36 +368,42 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                                         //TODO CHECKBOX KOMPETITOR
                                         if (CBAKom.isChecked()){
                                             s_cbakom=CBAKom.getText().toString();
+                                            Toast.makeText(this, "First Media", Toast.LENGTH_SHORT).show();
                                         } else {
                                             s_cbakom="";
                                         }
 
                                         if (CBBKom.isChecked()){
                                             s_cbbkom=CBBKom.getText().toString();
+                                            Toast.makeText(this, "Indihome", Toast.LENGTH_SHORT).show();
                                         } else {
                                             s_cbbkom="";
                                         }
 
                                         if (CBCKom.isChecked()){
                                             s_cbckom=CBCKom.getText().toString();
+                                            Toast.makeText(this, "Biznet", Toast.LENGTH_SHORT).show();
                                         } else {
                                             s_cbckom="";
                                         }
 
                                         if (CBDKom.isChecked()){
                                             s_cbdkom=CBDKom.getText().toString();
+                                            Toast.makeText(this, "Myrepublic", Toast.LENGTH_SHORT).show();
                                         } else {
                                             s_cbdkom="";
                                         }
 
                                         if (CBEKom.isChecked()){
                                             s_cbekom=CBEKom.getText().toString();
+                                            Toast.makeText(this, "Indosat GIG", Toast.LENGTH_SHORT).show();
                                         } else {
                                             s_cbekom="";
                                         }
 
                                         if (CBFKom.isChecked()){
                                             s_cbfkom=CBFKom.getText().toString();
+                                            Toast.makeText(this, "Yang Lain", Toast.LENGTH_SHORT).show();
                                         } else {
                                             s_cbfkom="";
                                         }
@@ -390,36 +412,42 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                                                 //TODO CHECKBOX KOMPETITOR
                                                 if (CBAPro.isChecked()){
                                                     s_cbapro=CBAPro.getText().toString();
+                                                    Toast.makeText(this, "Indovision//OKE/TOP TV", Toast.LENGTH_SHORT).show();
                                                 } else {
                                                     s_cbapro="";
                                                 }
 
                                                 if (CBBPro.isChecked()){
                                                     s_cbbpro=CBBPro.getText().toString();
+                                                    Toast.makeText(this, "Transvision", Toast.LENGTH_SHORT).show();
                                                 } else {
                                                     s_cbbpro="";
                                                 }
 
                                                 if (CBCPro.isChecked()){
                                                     s_cbcpro=CBCPro.getText().toString();
+                                                    Toast.makeText(this, "Big TV", Toast.LENGTH_SHORT).show();
                                                 } else {
                                                     s_cbcpro="";
                                                 }
 
                                                 if (CBDPro.isChecked()){
                                                     s_cbdpro=CBDPro.getText().toString();
+                                                    Toast.makeText(this, "Orange TV", Toast.LENGTH_SHORT).show();
                                                 } else {
                                                     s_cbdpro="";
                                                 }
 
                                                 if (CBEPro.isChecked()){
                                                     s_cbepro=CBEPro.getText().toString();
+                                                    Toast.makeText(this, "Topas Tv", Toast.LENGTH_SHORT).show();
                                                 } else {
                                                     s_cbepro="";
                                                 }
 
                                                 if (CBFPro.isChecked()){
                                                     s_cbfpro=CBFPro.getText().toString();
+                                                    Toast.makeText(this, "Yang Lain", Toast.LENGTH_SHORT).show();
                                                 } else {
                                                     s_cbfpro="";
                                                 }
@@ -498,9 +526,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                         CBEPro.setError("isi data");
                         CBFPro.setError("isi data");
 
-                        Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya" +
-                                "" +
-                                "", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya", Toast.LENGTH_SHORT).show();
                     }
 
                         if (TextUtils.isEmpty(edRata2BiayaInternet.getText())) {
@@ -512,7 +538,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                             int radioId = Radiogroup.getCheckedRadioButtonId();
                             radioButton = findViewById(radioId);
                             rbMotor.setError("Select Item");
-                            
+
 
 
                     } else {
