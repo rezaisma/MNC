@@ -453,6 +453,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                                                 }
 
 
+
         //TODO BUTTON NEXT
         btnNDS.setOnClickListener(
                 new View.OnClickListener() {
@@ -468,7 +469,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
 
                     Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya", Toast.LENGTH_SHORT).show();
                 }
-                    if (!CBAklartipe.isChecked() && !CBBklartipe.isChecked() && !CBCklartipe.isChecked() && !CBDklartipe.isChecked() && !CBEklartipe.isChecked() && !CBFklartipe.isChecked()) {
+                    else if (!CBAklartipe.isChecked() && !CBBklartipe.isChecked() && !CBCklartipe.isChecked() && !CBDklartipe.isChecked() && !CBEklartipe.isChecked() && !CBFklartipe.isChecked()) {
 
                         CBAklartipe.setError("isi data");
                         CBBklartipe.setError("isi data");
@@ -482,7 +483,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                     }
 
 
-                    if (!CBAMetod.isChecked() && !CBBMetod.isChecked() && !CBCMetod.isChecked() && !CBDMetod.isChecked()) {
+                    else if (!CBAMetod.isChecked() && !CBBMetod.isChecked() && !CBCMetod.isChecked() && !CBDMetod.isChecked()) {
 
                         CBAMetod.setError("isi data");
                         CBBMetod.setError("isi data");
@@ -494,7 +495,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                     }
 
 
-                    if (!CBAAkses.isChecked() && !CBBAkses.isChecked() && !CBCAkses.isChecked() && !CBDAkses.isChecked()){
+                    else if (!CBAAkses.isChecked() && !CBBAkses.isChecked() && !CBCAkses.isChecked() && !CBDAkses.isChecked()){
 
                         CBAAkses.setError("isi data");
                         CBBAkses.setError("isi data");
@@ -505,7 +506,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
 
                     }
 
-                    if (!CBAKom.isChecked() && !CBBKom.isChecked() && !CBCKom.isChecked() && !CBDKom.isChecked() && !CBEKom.isChecked() && !CBFKom.isChecked()){
+                    else if (!CBAKom.isChecked() && !CBBKom.isChecked() && !CBCKom.isChecked() && !CBDKom.isChecked() && !CBEKom.isChecked() && !CBFKom.isChecked()){
 
                         CBAKom.setError("isi data");
                         CBBKom.setError("isi data");
@@ -517,7 +518,7 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
                         Toast.makeText(InformasiDetailSurveyArea.this, "Isi terlebih dahulu sebelum melanjutkat ke halaman berikutnya", Toast.LENGTH_SHORT).show();
                     }
 
-                    if (!CBAPro.isChecked() && !CBBPro.isChecked() && !CBCPro.isChecked() && !CBDPro.isChecked() && !CBEPro.isChecked() && !CBFPro.isChecked()){
+                    else if (!CBAPro.isChecked() && !CBBPro.isChecked() && !CBCPro.isChecked() && !CBDPro.isChecked() && !CBEPro.isChecked() && !CBFPro.isChecked()){
 
                         CBAPro.setError("isi data");
                         CBBPro.setError("isi data");
@@ -541,10 +542,13 @@ public class InformasiDetailSurveyArea extends AppCompatActivity {
 
 
 
+
+
                     } else {
                         Intent intentnext = new Intent(getApplicationContext(), Identita_Surveyor.class);
                         startActivity(intentnext);
                     }
+
                 }
 
 

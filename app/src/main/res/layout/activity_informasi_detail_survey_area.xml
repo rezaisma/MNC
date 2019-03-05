@@ -198,7 +198,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:hint="Isi Disini" />
+                android:hint="Isi Disini"
+                android:inputType="number"/>
 
 
         </LinearLayout>
@@ -222,7 +223,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:hint="Isi Disini" />
+                android:hint="Isi Disini"
+                android:inputType="number"/>
 
         </LinearLayout>
 
